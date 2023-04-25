@@ -1,0 +1,25 @@
+.maincontacto{
+  z-index: 9999;
+ width: 100vw;
+ height: 100vh;
+ background-color: rgba(0, 0, 0, 0.7);
+ left:0px;
+ position: fixed;
+ top: 0px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.contcontacto{
+  border-radius: 30px;
+  height: 80vh;
+   width: 90%;
+   background-color: white;
+
+ }
+ .flecharetro{
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+}

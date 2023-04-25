@@ -1,0 +1,36 @@
+{
+  "name": "ramgas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.14",
+    "@next/font": "^13.1.6",
+    "compass": "^0.1.1",
+    "compass-mixins": "^0.12.12",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "hamburger-react": "^2.5.0",
+    "next": "13.1.6",
+    "next-compose-plugins": "^2.2.1",
+    "next-with-workbox": "^3.0.5",
+    "react": "18.2.0",
+    "react-animate-mount": "^1.0.1",
+    "react-animated-slider": "^2.0.0",
+    "react-dom": "18.2.0",
+    "react-material-ui-form-validator": "^3.0.1",
+    "react-transition-group": "^4.4.5",
+    "sharp": "^0.32.0"
+  },
+  "devDependencies": {
+    "sass": "^1.58.0"
+  }
+}
