@@ -94,17 +94,19 @@
 .flechamovimiento{
   position: absolute;
   z-index: 20;
-  background-color: rgba(0, 0, 0, 0.4);
-  height: 60px;
+  background-color: rgb(76 69 233 / 62%);
+  height: 90px;
   color: white;
-  width: 36px;
+  font-size: 50px;
+  width: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   border-radius: 20px;
-
 }
+
+
 .izquierda{
   left: 0px;
      
