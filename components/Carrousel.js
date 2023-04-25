@@ -34,7 +34,7 @@ class Carousel extends React.Component{
       
     };
 
- items=[<Slide1 key="ab1" />,<Slide2 key="ab2" />,<Slide3 key="ab3" />]
+ items=[<Slide1 key={0} />,<Slide2 key={1}  />,<Slide3 key={2} />]
 
    
  
@@ -149,8 +149,9 @@ console.log(this.state.counter)
  appear: 200,
  enter: 300,
  exit: 500,
-}}classNames="cont1Anim">
-      <div  index={this.state.counter} key={this.state.counter} >
+}}classNames="cont1Anim"
+key={this.state.counter} >
+      <div  key={this.state.counter} >
         {this.items[this.state.counter]}
         </div>
       </CSSTransition>
